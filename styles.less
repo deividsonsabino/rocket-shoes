@@ -1,0 +1,45 @@
+
+:root {
+    --button: #FF0000;
+    --main-background: #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 2.44rem 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    li {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        margin-right: 5.62rem;
+
+        input[type="search"] {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            width: 220px;
+            height: 45px;
+            border: none;
+            padding: 9px 4px 9px 40px;
+            background: transparent url("./assets/images/search-icon.png") no-repeat 13px center;
+            background-color: #FFFFFF;
+        }
+    }
+}
